@@ -1,0 +1,95 @@
+@media screen{ /* Specific to this particular image */
+body{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/af/14/ec/af14ec70738b1a992c767eb2310f12cb.jpg);
+}
+
+/* Bordered form */
+form.login {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    margin: 50px auto;
+    width:50%;
+}
+
+/* The "Forgot password" text */
+span.password {
+    float: right;
+    padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.password {
+        display: block;
+        float: none;
+    }
+
+
+.ui.container.half {
+    width: 50%;
+    margin: auto;
+}
+
+.ui.container.eighty {
+    width: 80%;
+    margin: auto;
+}
+
+.js-remove-post{
+    float: right;
+}
+
+.js-feed-images{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
